@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media screen and (max-width:960px){
+	.inner{width:100%;margin:0 auto;}
+	
+	header .icon .nav_bar{opacity:1;}
+	
+	header .run{display:none;}
+
+	header nav{background:#fff;float:none;width:100%;position:absolute;top:100px;left:0;margin:0;}
+	header nav li{float:none;padding:0; width:98%;border:1px solid #eee;height:47px;line-height:47px;padding-left:2%;}
+	header nav .active{color:#333;}
+	header nav a:hover{color:#333;}	
+	header nav i{opacity:1;float:right; margin-top:2%;}
+		
+	.oshine li{float:none;width:100%;height:200px;}
+	.oshine h2{padding:0;}
+	.oshine li:hover i{transform:none; animation:none;}
+	.oshine li:hover h2{transform:none; animation:none;}
+	
+	.modern .left_content{float:left;width:27%;padding:0;padding:111px 4% 0;}
+	.modern .text{width:100%; padding-bottom:39px;}
+	.modern .text i{float:left;width:17%;line-height:51px;font-size:28px;color:#eab455;}
+	.modern .text article{float:right;width:82%;}
+	.modern .text h2{line-height:51px;font-size:13px; color:#222222;}
+	.modern .text p{line-height:26px;font-size:12px; color:#6b7377;}
+	.modern .mid_content{float:left;padding-top:100px;;width:27%;}
+	.modern .mid_content img{width:100%;}
+	.modern .right_content{float:right;width:27%;padding:111px 4% 0;}
+	
+	.work #work_pic li{float:left;width:31%;margin:0 3% 40px 0;}
+	
+	footer .inner{width:98%;padding-left:1%;}
+	footer .text{width:25%;}
+	footer .text p{padding:31px 6% 29px 0;}
+	footer .text:nth-of-type(2) p{padding:0 4% 0 0; font-size:10px;}
+	footer .text:nth-of-type(4){width:22%;}
+	footer .text:nth-of-type(4) li{float:none;}
+}
+
+@media screen and (max-width:760px){
+		.modern .left_content{float:none;width:100%;padding:50px 15% 0;}
+		.modern .text article{float:left;width:55%;}
+		.modern .mid_content{float:none;padding:0 15%;width:70%;}
+		.modern .right_content{float:none;width:100%;padding:50px 15% 0;}
+		
+		.work #work_pic li{float:left;width:40%;margin:0 5% 40px;}
+		.work #work_pic li:nth-child(3n){margin:0 5% 40px;}
+			
+		footer .text{float:none;width:70%;;padding:50px 15%;}
+		footer .text:nth-of-type(4){width:70%;;padding:0 15% 300px;;}
+		footer .text:nth-of-type(4) li{float:left;}
+}
+
+@media screen and (max-width:480px){
+		.work #work_pic li{float:none;width:90%;margin:0 5% 40px;}
+		.work #work_pic li:nth-child(3n){margin:0 5% 40px;}
+}
